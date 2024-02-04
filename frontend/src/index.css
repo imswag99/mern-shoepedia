@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"], textarea {
+  @apply w-full bg-transparent border border-text text-text my-1 py-2 px-3 rounded-2xl;
+}
+
+input[type="text"].admin, input[type="password"].admin, input[type="email"].admin, input[type="number"].admin, input[type="tel"].admin, textarea.admin {
+  @apply w-full bg-adminPrimary text-text my-1 py-2 px-3 rounded-2xl;
+}
+
+input[type="text"].search {
+  @apply bg-primary text-text outline-none placeholder-text my-1 py-2 px-3 rounded-2xl;
+}
+
+select {
+  @apply w-full bg-primary border border-text text-text my-1 py-2 px-3 rounded-2xl outline-none;
+}
+
+option {
+  @apply w-full bg-primary border border-text text-text my-1 py-2 px-3 rounded-2xl;
+}
+
+select.admin {
+  @apply w-full bg-adminPrimary text-text my-1 py-2 px-3 rounded-2xl outline-none;
+}
+
+option.admin {
+  @apply w-full bg-adminPrimary text-text my-1 py-2 px-3 rounded-2xl;
+}
+
+textarea{
+  height: 140px;
+  @apply bg-transparent border border-text text-text;
+}
+
+button{
+  @apply bg-gray-300 cursor-pointer;
+}
+
+button.primary{
+  background-color: #fc5c65;
+  @apply bg-primary p-2 w-full text-text uppercase font-semibold rounded-2xl transition-all hover:text-primary hover:bg-text;
+}
+
+button.adminprimary{
+  background-color: #fc5c65;
+  @apply bg-adminPrimary p-2 w-full text-text uppercase font-semibold rounded-2xl transition-all hover:text-primary hover:bg-text;
+}
+
+
+button.cart{
+  background-color: #fc5c65;
+  @apply bg-text p-2 w-full text-mainBg uppercase font-semibold rounded-2xl;
+}
+
+input[type='range'] {
+	-webkit-appearance: none;
+	height: 7px;
+	background: #872341;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #3d3d3d;
+	cursor: pointer;
+	box-shadow: 0 0 2px 0 #555;
+}
+
+::-webkit-scrollbar {
+  @apply w-3 h-3
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-mainBg
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-mainBg 
+}
