@@ -25,7 +25,7 @@ import ConfirmOrderPage from "./pages/ConfirmOrderPage";
 import AdminOrdersPage from "./pages/AdminOrdersPage";
 import AdminIndexPage from "./pages/AdminIndexPage";
 
-axios.defaults.baseURL = "http://localhost:5000/api";
+axios.defaults.baseURL = "https://shoepedia-ecom.onrender.com/api";
 axios.defaults.withCredentials = true;
 
 const App = () => {
