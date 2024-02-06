@@ -15,7 +15,7 @@ app.use(express.urlencoded({extended: true}));
 app.use("/uploads", express.static(__dirname + "/uploads")); // Forgot to use this one
 app.use(cors({
   credentials: true,
-  origin: "http://localhost:5173",
+  origin: "https://shoepedia.vercel.app",
 }));
 app.use(cookieParser());
 
