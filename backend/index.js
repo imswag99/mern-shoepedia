@@ -23,4 +23,7 @@ app.use('/api/user', userRouter);
 app.use('/api/product', productRouter);
 app.use('/api/order', orderRouter);
 
-app.listen(5000);
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
+  console.log(`Server is running at port ${port}`);
+});
