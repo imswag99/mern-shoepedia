@@ -173,7 +173,7 @@ const SingleProductPage = () => {
                     key={i}
                     onClick={() => changeImg(image)}
                     className="w-24 h-24 object-cover rounded-xl cursor-pointer"
-                    src={`http://localhost:5000/uploads/${image}`}
+                    src={`https://shoepedia-ecom.onrender.com/uploads/${image}`}
                     alt=""
                   />
                 ))}
@@ -182,7 +182,7 @@ const SingleProductPage = () => {
               {product.images.length > 0 && (
                 <img
                   className="w-[34rem] h-[34rem] object-cover rounded-xl"
-                  src={`http://localhost:5000/uploads/${currentImage}`}
+                  src={`https://shoepedia-ecom.onrender.com/uploads/${currentImage}`}
                   alt=""
                 />
               )}
