@@ -6,7 +6,7 @@ import axios from "axios";
 
 const IndexPage = () => {
   const { products } = useContext(ProductContext);
-  const superstar = "SUPERSTAR 82 SHOES";
+  const superstar = "SUPERSTAR X LEGO®";
   const timberland = "Premium 6-Inch Waterproof Boot";
   const predator = "PREDATOR ELITE FIRM GROUND BOOTS";
 
