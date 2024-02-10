@@ -32,7 +32,7 @@ const AdminProductsPage = () => {
                 <div className="flex w-32 bg-gray-300 shrink-0">
                   <img
                     className="object-cover grow"
-                    src={`http://localhost:5000/uploads/${product.images[0]}`}
+                    src={`https://shoepedia-ecom.onrender.com/uploads/${product.images[0]}`}
                     alt=""
                   />
                 </div>

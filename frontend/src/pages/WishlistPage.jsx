@@ -28,7 +28,7 @@ const WishlistPage = () => {
                   <div className="flex h-[70%] bg-gray-300 overflow-hidden rounded-2xl shadow-md shadow-black">
                     <img
                       className="object-cover grow hover:scale-125 transition-all"
-                      src={`http://localhost:5000/uploads/${product.images[0]}`}
+                      src={`https://shoepedia-ecom.onrender.com/uploads/${product.images[0]}`}
                       alt=""
                     />
                   </div>

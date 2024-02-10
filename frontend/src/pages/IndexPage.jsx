@@ -68,7 +68,7 @@ const IndexPage = () => {
                 <div className="flex w-full h-full bg-gray-300">
                   <img
                     className="object-cover grow hover:scale-125 transition-all"
-                    src={`http://localhost:5000/uploads/${product.images[0]}`}
+                    src={`https://shoepedia-ecom.onrender.com/uploads/${product.images[0]}`}
                     alt=""
                   />
                 </div>

@@ -132,7 +132,7 @@ const ProductForm = () => {
                   >
                     <img
                       className="w-full obejct-cover"
-                      src={"http://localhost:5000/uploads/" + link}
+                      src={"https://shoepedia-ecom.onrender.com/uploads/" + link}
                       alt=""
                     />
                     <button

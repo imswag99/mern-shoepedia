@@ -85,7 +85,7 @@ const CartPage = () => {
                 <div className="flex w-16 bg-gray-300 shrink-0 overflow-hidden">
                   <img
                     className="object-cover grow hover:scale-125 transition-all"
-                    src={`http://localhost:5000/uploads/${cartItem.product.images[0]}`}
+                    src={`https://shoepedia-ecom.onrender.com/uploads/${cartItem.product.images[0]}`}
                     alt=""
                   />
                 </div>

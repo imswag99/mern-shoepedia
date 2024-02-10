@@ -40,7 +40,7 @@ const ConfirmOrderPage = () => {
                 <div key={i} className="flex gap-8 justify-center items-center">
                   <img
                     className="w-[7%] h-[14%] rounded-xl"
-                    src={`http://localhost:5000/uploads/${item.product.images[0]}`}
+                    src={`https://shoepedia-ecom.onrender.com/uploads/${item.product.images[0]}`}
                     alt=""
                   />
                   <div className="w-[40%] text-center">

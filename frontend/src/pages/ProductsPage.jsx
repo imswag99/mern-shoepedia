@@ -140,7 +140,7 @@ const ProductsPage = () => {
                     <div className="flex w-full h-[80%] bg-gray-300 overflow-hidden rounded-2xl shadow-md shadow-black">
                       <img
                         className="object-cover grow hover:scale-125 transition-all"
-                        src={`http://localhost:5000/uploads/${product.images[0]}`}
+                        src={`https://shoepedia-ecom.onrender.com/uploads/${product.images[0]}`}
                         alt=""
                       />
                     </div>
@@ -171,7 +171,7 @@ const ProductsPage = () => {
                     <div className="flex w-32 bg-gray-300 shrink-0 overflow-hidden">
                       <img
                         className="object-cover grow hover:scale-125 transition-all"
-                        src={`http://localhost:5000/uploads/${product.images[0]}`}
+                        src={`https://shoepedia-ecom.onrender.com/uploads/${product.images[0]}`}
                         alt=""
                       />
                     </div>
